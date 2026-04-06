@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mehran Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #222;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 60px;
+    text-align: center;
+}
+
+/* Skills */
+.skills {
+    background: #f4f4f4;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: white;
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Projects */
+.project-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h2>Mehran</h2>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div>
+        <h1>Hi, I'm Mehran Mushtaq 👋</h1>
+        <p>CSE Student | Web Developer | AI Enthusiast</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<!-- About -->
+<section>
+    <h2>About Me</h2>
+    <p>
+        Dedicated Computer Science student with experience in Java, SQL, and web development.
+        Passionate about building AI-driven and cloud-based applications with clean design and logic.
+    </p>
+</section>
+
+<!-- Skills -->
+<section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-box">
+        <div class="skill">C</div>
+        <div class="skill">Java</div>
+        <div class="skill">SQL</div>
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">Data Mining</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-box">
+
+        <div class="card">
+            <h3>Kitchen Kart</h3>
+            <p>FoodTech platform connecting home chefs with customers using AWS.</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Moodle System</h3>
+            <p>Enhanced LMS with AI-based personalized learning paths.</p>
+        </div>
+
+        <div class="card">
+            <h3>Smart Farming ML</h3>
+            <p>Machine learning system for crop and fertilizer recommendations.</p>
+        </div>
+
+        <div class="card">
+            <h3>Student Management</h3>
+            <p>Java application for managing student records efficiently.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Mehran Mushtaq | Portfolio</p>
+</footer>
+
+</body>
+</html>
