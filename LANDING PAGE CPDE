@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CalcPro Landing Page</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #222;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00adb5;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00adb5;
+}
+
+/* Features */
+.features {
+    padding: 60px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin: 10px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h2>CalcPro</h2>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">About</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div>
+        <h1>Smart Calculator App</h1>
+        <p>Fast, simple and reliable calculations anytime</p>
+        <a href="calculator.html" class="btn">Open Calculator</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <h2>Features</h2>
+    <div class="feature-box">
+        <div class="card">
+            <h3>Fast</h3>
+            <p>Quick and accurate calculations</p>
+        </div>
+        <div class="card">
+            <h3>Simple UI</h3>
+            <p>Easy to use interface</p>
+        </div>
+        <div class="card">
+            <h3>Responsive</h3>
+            <p>Works on all devices</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 CalcPro | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
